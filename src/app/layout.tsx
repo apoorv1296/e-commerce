@@ -1,7 +1,7 @@
 import SaleRibbon from "@/components/sale-ribbon"
 
-import Footer from "../components/footer/footer"
-import Header from "../components/header"
+import Footer from "../components/layout/footer"
+import Header from "../components/layout/header"
 import "./globals.css"
 
 export const metadata = {

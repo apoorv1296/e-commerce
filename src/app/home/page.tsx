@@ -1,3 +1,12 @@
-const Home = () => <h1>home page</h1>
+import HeadCarousel from "@/components/home/head-carousel"
+import ProductSection from "@/components/home/product-section"
+
+const Home = () => (
+  <div className='px-32'>
+    <HeadCarousel />
+
+    <ProductSection />
+  </div>
+)
 
 export default Home
