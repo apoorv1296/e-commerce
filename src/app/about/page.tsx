@@ -1,8 +1,3 @@
-const About = ()=>{
+const About = () => <h1 className='border border-red-500'>About page.....</h1>
 
-    return (
-      <h1 className="border border-red-500">About page.....</h1>
-    )
-  }
-  
-  export default About
+export default About
