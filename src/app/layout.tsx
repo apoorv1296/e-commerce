@@ -1,4 +1,4 @@
-import SaleRibbon from "@/components/sale-ribbon"
+import SaleRibbon from "@/components/layout/sale-ribbon"
 
 import Footer from "../components/layout/footer"
 import Header from "../components/layout/header"
@@ -20,6 +20,8 @@ export default function RootLayout({
         <SaleRibbon />
         <Header />
         {children}
+
+        {/* TODO : Need to be formated the code and make reuseable components */}
         <Footer />
       </body>
     </html>

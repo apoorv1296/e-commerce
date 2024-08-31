@@ -3,15 +3,10 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
+import { navigationTabs } from "@/components/constants/navigationTabs"
+
 const NavBarList = () => {
   const pathname = usePathname()
-
-  const navigationTabs = [
-    { href: "home", label: "Home" },
-    { href: "about", label: "About" },
-    { href: "signup", label: "SignUp" },
-    { href: "contact", label: "Contact" },
-  ]
 
   return (
     <nav>

@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 import FacebookIcon from "@/components/icons/facebookIcon"
 import InstaIcon from "@/components/icons/instaIcon"
 import LinkdinIcon from "@/components/icons/linkdinIcon"
@@ -12,7 +14,10 @@ const Footer = () => (
     <div className='leading-9'>
       <Logo />
       <h3 className='my-5 text-xl'>Subscribe</h3>
-      <h3>Subscribe</h3>
+      <Link href='/'>
+        {" "}
+        <h3>Subscribe</h3>{" "}
+      </Link>
       <h3>Get 10% off your first order</h3>
 
       <Button

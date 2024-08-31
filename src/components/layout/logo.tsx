@@ -2,10 +2,12 @@ import Link from "next/link"
 
 import { cn } from "@/lib/utils"
 
-// eslint-disable-next-line react/prop-types
-const Logo = ({ className = "" }) => (
+type LogoProps = {
+  className?: string
+}
+
+const Logo = ({ className }: LogoProps) => (
   <h1>
-    {/* <Link href='/' className='text-2xl font-bold tracking-wide'> */}
     <Link
       href='/'
       className={cn("text-2xl font-bold tracking-wide", className)}
