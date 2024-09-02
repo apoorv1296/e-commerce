@@ -3,13 +3,18 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
 const AddProductSection = () => (
-  <div className='mb-[70px] flex h-[500px] justify-between bg-black p-14 text-white'>
+  <div className='flex justify-between bg-black p-14 text-white'>
     <div className='space-y-10'>
       <h3 className='font-semibold text-[#00FF66]'>Categories</h3>
       <h1 className='w-[443px] text-5xl font-semibold tracking-wider'>
         Enhance Your Music Experience
       </h1>
-      <div className='h-[62px] w-[320px] border border-white' />
+      <div className='flex space-x-5'>
+        <div className='h-[62px] w-[62px] rounded-full bg-white' />
+        <div className='h-[62px] w-[62px] rounded-full bg-white' />
+        <div className='h-[62px] w-[62px] rounded-full bg-white' />
+        <div className='h-[62px] w-[62px] rounded-full bg-white' />
+      </div>
       <Button className='h-[56px] w-[171px] bg-[#00FF66]'>Buy Now</Button>
     </div>
 

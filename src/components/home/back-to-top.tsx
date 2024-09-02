@@ -10,7 +10,7 @@ const BactToTop = () => {
   }
 
   return (
-    <div className='mb-[32px] flex justify-end'>
+    <div className='flex justify-end'>
       <Button
         onClick={handleScrollToTop}
         className='flex h-[46px] w-[46px] items-center justify-center rounded-full bg-[#F5F5F5] text-black transition-colors duration-200 hover:bg-gray-200'

@@ -14,7 +14,7 @@ const OurProductSection = () => (
         ))}
       </div>
     </div>
-    <div className='my-16 flex justify-center'>
+    <div className='mt-16 flex justify-center'>
       <Button className='h-[56px] w-[234px] rounded bg-[#DB4444]'>
         View All Products
       </Button>

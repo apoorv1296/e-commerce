@@ -5,7 +5,7 @@ import SubSectionHeading from "../subsection-heading"
 
 const TodaySaleSection = () => (
   <>
-    <div className='h-[500px]'>
+    <div>
       <SectionHeading title="Today's" />
       <SubSectionHeading title='Flash Sales' />
       <div className='grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4'>
@@ -14,8 +14,8 @@ const TodaySaleSection = () => (
         ))}
       </div>
     </div>
-    <div className='mb-16 flex justify-center'>
-      <Button className='h-[56px] w-[234px] rounded bg-[#DB4444]'>
+    <div className='flex justify-center'>
+      <Button className='mt-6 h-[56px] w-[234px] rounded bg-[#DB4444]'>
         View All Products
       </Button>
     </div>

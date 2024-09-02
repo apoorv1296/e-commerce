@@ -4,7 +4,7 @@ import SectionHeading from "../section-heading"
 import SubSectionHeading from "../subsection-heading"
 
 const NewArrivalSection = () => (
-  <div className=''>
+  <div>
     <SectionHeading title='Featured' />
     <SubSectionHeading title='New Arrival' />
 

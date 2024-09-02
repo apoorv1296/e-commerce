@@ -3,7 +3,7 @@ import SectionHeading from "../section-heading"
 import SubSectionHeading from "../subsection-heading"
 
 const ThisMonthSection = () => (
-  <div className='mb-[140px] mt-[70px] h-[518px]'>
+  <div>
     <SectionHeading title='This Month' />
     <SubSectionHeading title='Best Selling Products' />
 
