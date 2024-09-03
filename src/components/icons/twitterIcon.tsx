@@ -24,4 +24,3 @@ const TwitterIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 )
 export default TwitterIcon
-

@@ -3,12 +3,12 @@
 import React, { useState } from "react"
 
 import { useKeenSlider } from "keen-slider/react"
-
 import "keen-slider/keen-slider.min.css"
+import Image from "next/image"
+
 import { cn } from "@/lib/utils"
 
 import { Button } from "../ui/button"
-import Image from "next/image"
 
 export default function Slider() {
   const [currentSlide, setCurrentSlide] = React.useState(0)

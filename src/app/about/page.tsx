@@ -1,7 +1,7 @@
 import OurStory from "@/components/about/our-story"
 
 const About = () => (
-  <div className='px-32'>
+  <div className='my-9 space-y-24 px-32'>
     <OurStory />
   </div>
 )

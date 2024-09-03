@@ -1,4 +1,5 @@
 import NavBar from "./navbar-list"
+import Profile from "./profile"
 import SearchBar from "./searchbar"
 import CartIcon from "../../icons/cartIcon"
 import HeartIcon from "../../icons/heartIcon"
@@ -13,6 +14,7 @@ const Header = () => (
       <SearchBar />
       <HeartIcon />
       <CartIcon />
+      <Profile />
     </div>
   </div>
 )

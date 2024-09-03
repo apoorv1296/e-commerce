@@ -7,7 +7,7 @@ import PerksProvided from "../common/perks-provided-section"
 export default function OurStory() {
   return (
     <>
-      <div className='flex'>
+      <div className='flex items-center justify-between'>
         <div className=''>
           <h3>Our Story</h3>
           <p>
@@ -25,14 +25,12 @@ export default function OurStory() {
           </p>
         </div>
 
-        <div className='relative h-[600px] w-[700px]'>
-          <Image
-            src='/images/Side Image.jpg'
-            alt='product image'
-            layout='fill'
-            objectFit='cover'
-          />
-        </div>
+        <Image
+          src='/images/Side Image.jpg'
+          alt='product image'
+          width={700}
+          height={600}
+        />
       </div>
       <StatsDetails />
       <ProfileCards />
