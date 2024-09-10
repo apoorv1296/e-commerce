@@ -9,7 +9,7 @@ interface ProfileCardProps {
 const ProfileCard = (props: ProfileCardProps) => {
   const { name, title } = props
   return (
-    <div className='w-[370px] border'>
+    <div className='w-[370px]'>
       <Image
         className='h-[430px] w-full object-cover'
         src='/images/Side Image.jpg'
@@ -49,7 +49,7 @@ const ProfileCards = () => {
   ]
 
   return (
-    <div className='flex justify-between'>
+    <div className='mx-auto flex w-[1170px] justify-between'>
       {profiles.map((profile) => (
         <ProfileCard key={Date()} {...profile} />
       ))}

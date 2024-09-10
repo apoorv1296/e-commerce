@@ -1,8 +1,8 @@
 import NavBar from "./navbar-list"
 import Profile from "./profile"
 import SearchBar from "./searchbar"
-import CartIcon from "../../icons/cartIcon"
 import HeartIcon from "../../icons/heartIcon"
+import CartDetails from "../cart-details"
 import Logo from "../logo"
 
 const Header = () => (
@@ -13,7 +13,7 @@ const Header = () => (
     <div className='flex items-center justify-between space-x-5'>
       <SearchBar />
       <HeartIcon />
-      <CartIcon />
+      <CartDetails />
       <Profile />
     </div>
   </div>

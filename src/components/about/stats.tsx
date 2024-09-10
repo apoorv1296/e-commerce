@@ -19,7 +19,7 @@ const StatsCard = ({ icon, title, description }: StatsCardProps) => (
 )
 
 const StatsDetails = () => (
-  <div className='flex space-x-8'>
+  <div className='flex justify-around space-x-8'>
     <StatsCard
       icon={<DeliveryIcon />}
       title='10.5k '
